@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Card from './Card';
+import Header from './Header';
 
 import cat from './images/cat.jpeg';
 import dog from './images/dog.jpg';

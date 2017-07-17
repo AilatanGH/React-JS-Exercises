@@ -1,19 +1,16 @@
 import React from 'react';
-
+import Header from './Header';
 import cuore from './images/like.png';
 
 class Card extends React.Component {
-
   render(){
     return (
       <div className="box-card">
-        <div className="header">
-          <img src={this.props.img} className="circle"/>
-          <div className="user-info">
-            <h1 className="name">{this.props.name}</h1>
-            <h2 className="data">{this.props.data}</h2>
-          </div>
-        </div>
+        <Header
+          img={this.props.img}
+          name={this.props.name}
+          data={this.props.data}
+          />
         <p className="text-description">
           {this.props.text}
         </p>
