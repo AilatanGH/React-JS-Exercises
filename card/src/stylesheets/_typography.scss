@@ -1,0 +1,25 @@
+
+.name {
+  margin: 5px;
+  font-family: $font-title;
+  font-size: $text-l;
+}
+
+.data {
+  margin: 5px;
+  font-family: $font-title;
+  font-size: $text-s;
+}
+
+.likes {
+  margin: 0;
+  font-family: $font-title;
+  font-size: $text-xl;
+}
+
+.link {
+  font-size: $text-m;
+  text-decoration: none;
+  cursor: pointer;
+  color: $color-primary;
+}

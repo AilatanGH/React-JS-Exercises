@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.number-likes {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
